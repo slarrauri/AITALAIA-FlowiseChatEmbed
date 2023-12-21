@@ -61,7 +61,12 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> GPT.ar </span>
+         <span style={{ color: '#F8B329' }}>AI</span>
+        <span style={{ color: '#FB475E' }}> TA</span>
+        <span style={{ color: '#8C73FF' }}> LA</span>
+        <span style={{ color: '#F8B329' }}> IA</span>
+        <span style={{ color: '#37D3C1' }}> .</span>
+        <span style={{ color: '#239DBF' }}> COM</span>
       </a>
     </span>
   )
